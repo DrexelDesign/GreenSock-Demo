@@ -1,0 +1,32 @@
+/* =============
+    Index Content
+============= */
+#index-content{
+    background-color: #252422;
+    >div{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        section{
+            text-align: center;
+
+            h1{
+                color: #fffcf2;
+                font-size: rem-calc(50);
+            }
+
+            a:link, a:visited{
+                color: #eb5e28;
+                transition: 0.25s;
+                text-decoration: none;
+                font-size: rem-calc(20);
+    
+                &:hover, &:active{
+                    color: #ccc5b9;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/* =============
+    Page 2 Content
+============= */
+#page-2-content{
+    background-color: #2f4858;
+    >div{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        section{
+            text-align: center;
+
+            h1{
+                color: #33658a;
+                font-size: rem-calc(50);
+            }
+
+            a:link, a:visited{
+                color: #55dde0;
+                transition: 0.25s;
+                text-decoration: none;
+                font-size: rem-calc(20);
+    
+                &:hover, &:active{
+                    color: #33658a;
+                }
+            }
+        }
+    }
+}
